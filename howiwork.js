@@ -7,3 +7,5 @@ let wynter = "cute"
 let luna = "punk"
 
 let pain = luna
+
+let myChanges = [1, 32, 4, 5, 5, 5, 3]
