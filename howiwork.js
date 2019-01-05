@@ -14,3 +14,18 @@ let person2Changes = {
     b: 2,
     c: 3
 }
+
+function updateObject(obj, key, newVal) {
+    obj[key] = newVal;
+    return obj;
+}
+
+function deleteVid(conversation, indexToDelete) {
+    conversation.splice(indexToDelete, 1);
+    return conversation;
+}
+
+module.exports = {
+    updateObject,
+    deleteVid
+}
